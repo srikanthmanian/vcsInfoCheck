@@ -1,0 +1,149 @@
+/**************************default theme ***************************************/
+@app-background-color: #fff;
+@app-panel-help-header-color: #eee;
+@app-panel-border-color: #ddd;
+@app-panel-help-background: #FFFED0;
+@app-search-container-bg-color: #f8f8f8;
+
+.wm-app {
+  background-color: @app-background-color;
+  label {
+    font-weight: normal;
+  }
+/*For App Widgets*/
+  @app-label-text-color: #333;
+  @app-border-color: rgba(0, 0, 0, 0.05);
+  @app-link-color: #0088BA;
+
+/*For App Header, Body & Footer colors*/
+  @wm-app-header-background-color: #33414e;
+  @wm-app-header-text-color: #fff;
+
+/*For top nav*/
+  @wm-app-topnav-background-color: #2f3c48;
+  @wm-app-topnav-border-color: rgba(0, 0, 0, 0.05);
+  @wm-app-topnav-text-color: #60a9ba;
+  @app-top-nav-link-hover-color: #fff;
+  @app-top-nav-link-hover-bg-end-color: #2c3e4e;
+
+/*For left nav*/
+  @app-left-panel-bg-color: #fff;
+  @app-left-panel-link-border-bottom-color: rgba(0, 0, 0, 0.05);
+  @app-left-panel-link-color: #505865;
+  @app-left-panel-link-hover-color: #fff;
+  @app-left-panel-link-hover-bg-color: #60a9ba;
+
+/*For right nav*/
+  @app-right-panel-bg-color: #f5f4f1;
+  @app-right-panel-list-bg-color: #f17261;
+  @app-right-panel-link-color: #fff;
+  @app-right-panel-link-hover-color: #fff;
+  @app-right-panel-link-hover-bg-color: #c85749;
+  @app-right-panel-link-border-bottom-color: rgba(0, 0, 0, 0.05);
+
+/*For footer */
+  @wm-app-footer-background-color: #343b43;
+  @wm-app-footer-text-color: #999;
+
+/*App Header, Body & Footer*/
+  .app-header {
+    background-color: @wm-app-header-background-color;
+    color: @wm-app-header-text-color;
+  }
+
+  .app-footer {
+    background-color: @wm-app-footer-background-color;
+    color: @wm-app-footer-text-color;
+  }
+
+  .navbar {
+    border-color: @wm-app-topnav-background-color;
+    border-radius: 0;
+    background-color: @wm-app-topnav-background-color;
+    margin-bottom: 0;
+    .btn, a {
+      color: @wm-app-topnav-text-color;
+      &:hover, &.active {
+        background-color: @app-top-nav-link-hover-bg-end-color;
+        color: @app-top-nav-link-hover-color;
+      }
+    }
+  }
+      .app-left-panel {
+        .nav li {
+          margin: 0;
+            .btn, a {
+              width: 100%;
+              text-align: left;
+              background-color: transparent;
+              box-shadow: none;
+              border: 0;
+              border-radius: 0;
+              display: block;
+              text-decoration: none;
+            }
+            .dropdown {
+              width: 100%;
+            }
+        }
+      }
+      .app-right-panel {
+        .nav li {
+          margin: 0;
+          .dropdown {
+            width: 100%;
+          }
+        }
+      }
+      .app-top-nav {
+        .nav li {
+          .btn {
+            background: transparent;
+            box-shadow: none;
+            border: 0;
+            border-radius: 0;
+            text-decoration: none;
+            padding: 15px;
+          }
+          .dropdown {
+            width: 100%;
+          }
+        }
+      }
+  .app-left-panel {
+    background-color: @app-left-panel-bg-color;
+    border-right: 1px @app-border-color solid;
+    .nav {
+      li {
+        border-bottom:1px @app-left-panel-link-border-bottom-color solid;
+        .btn, a {
+          color: @app-left-panel-link-color;
+          padding: 6px 12px;
+          &:hover, &.active {
+            color: @app-left-panel-link-hover-color;
+            background-color: @app-left-panel-link-hover-bg-color;
+          }
+        }
+      }
+    }
+  }
+
+  .app-right-panel {
+    border-left: 1px @app-border-color solid;
+    background-color: @app-right-panel-bg-color;
+    .nav {
+      background-color: @app-right-panel-list-bg-color;
+      li {
+        border-bottom:1px @app-right-panel-link-border-bottom-color solid;
+        a {
+          color: @app-right-panel-link-color;
+          padding: 6px 12px;
+          &:hover, &.active {
+            color: @app-right-panel-link-hover-color;
+            background-color: @app-right-panel-link-hover-bg-color;
+          }
+        }
+      }
+    }
+  }
+}

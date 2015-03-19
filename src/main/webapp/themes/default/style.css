@@ -1,0 +1,111 @@
+/**************************default theme ***************************************/
+.wm-app {
+  background-color: #ffffff;
+  /*For App Widgets*/
+  /*For App Header, Body & Footer colors*/
+  /*For top nav*/
+  /*For left nav*/
+  /*For right nav*/
+  /*For footer */
+  /*App Header, Body & Footer*/
+}
+.wm-app label {
+  font-weight: normal;
+}
+.wm-app .app-header {
+  background-color: #33414e;
+  color: #ffffff;
+}
+.wm-app .app-footer {
+  background-color: #343b43;
+  color: #999999;
+}
+.wm-app .navbar {
+  border-color: #2f3c48;
+  border-radius: 0;
+  background-color: #2f3c48;
+  margin-bottom: 0;
+}
+.wm-app .navbar .btn,
+.wm-app .navbar a {
+  color: #60a9ba;
+}
+.wm-app .navbar .btn:hover,
+.wm-app .navbar a:hover,
+.wm-app .navbar .btn.active,
+.wm-app .navbar a.active {
+  background-color: #2c3e4e;
+  color: #ffffff;
+}
+.wm-app .app-left-panel .nav li {
+  margin: 0;
+}
+.wm-app .app-left-panel .nav li .btn,
+.wm-app .app-left-panel .nav li a {
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  display: block;
+  text-decoration: none;
+}
+.wm-app .app-left-panel .nav li .dropdown {
+  width: 100%;
+}
+.wm-app .app-right-panel .nav li {
+  margin: 0;
+}
+.wm-app .app-right-panel .nav li .dropdown {
+  width: 100%;
+}
+.wm-app .app-top-nav .nav li .btn {
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  text-decoration: none;
+  padding: 15px;
+}
+.wm-app .app-top-nav .nav li .dropdown {
+  width: 100%;
+}
+.wm-app .app-left-panel {
+  background-color: #ffffff;
+  border-right: 1px rgba(0, 0, 0, 0.05) solid;
+}
+.wm-app .app-left-panel .nav li {
+  border-bottom: 1px rgba(0, 0, 0, 0.05) solid;
+}
+.wm-app .app-left-panel .nav li .btn,
+.wm-app .app-left-panel .nav li a {
+  color: #505865;
+  padding: 6px 12px;
+}
+.wm-app .app-left-panel .nav li .btn:hover,
+.wm-app .app-left-panel .nav li a:hover,
+.wm-app .app-left-panel .nav li .btn.active,
+.wm-app .app-left-panel .nav li a.active {
+  color: #ffffff;
+  background-color: #60a9ba;
+}
+.wm-app .app-right-panel {
+  border-left: 1px rgba(0, 0, 0, 0.05) solid;
+  background-color: #f5f4f1;
+}
+.wm-app .app-right-panel .nav {
+  background-color: #f17261;
+}
+.wm-app .app-right-panel .nav li {
+  border-bottom: 1px rgba(0, 0, 0, 0.05) solid;
+}
+.wm-app .app-right-panel .nav li a {
+  color: #ffffff;
+  padding: 6px 12px;
+}
+.wm-app .app-right-panel .nav li a:hover,
+.wm-app .app-right-panel .nav li a.active {
+  color: #ffffff;
+  background-color: #c85749;
+}
